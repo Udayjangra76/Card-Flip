@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Flip Card Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="popup">
+        <div>
+            <h2></h2>
+            <br>
+            Play Again
+            <br>
+            <button class="shadow" id="reload"><img src="image/rel.webp" style="width: 100%; height: 100%;"></button>
+        </div>
+    </div>
+
+    <div class="container">
+        <div id="bg-stats">
+            <div id="stats">
+
+                <h2>
+                    Moves: <span id="move"></span>
+                </h2>
+                <h2>
+                    <span id="restart" onclick="location.reload()">Restart</span>
+                </h2>
+            </div>
+        </div>
+        
+
+        <div id="grid">
+            
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
